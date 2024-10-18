@@ -74,8 +74,8 @@ user.age = 21; // set (or assign) new value to object property called age
 user.location = "NSW"; // create new object property called location and set (assign) a value
 delete user.location; // delete property of user object called location
 
-function add(a: number, b: number): number {
-    return a + b;
+function add(a: number, b: number): string {
+    return String(a + b);
 }
 
 console.log(add(2, 3));
