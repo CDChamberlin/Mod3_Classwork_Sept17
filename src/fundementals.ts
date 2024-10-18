@@ -73,3 +73,11 @@ let dogOwner = user["has a dog"]; // get value of property 'has a dog' and assig
 user.age = 21; // set (or assign) new value to object property called age
 user.location = "NSW"; // create new object property called location and set (assign) a value
 delete user.location; // delete property of user object called location
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+console.log(add(2, 3));
+
+//console.log(add("2", "3")); // Bad Typescript code
